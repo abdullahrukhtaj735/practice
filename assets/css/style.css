@@ -252,8 +252,7 @@ body{
   background:#007bff;
   
 }
-/*--------------------------------------------------------- section_5------------------------------------------------- */
-
+/* section_5 */
 
 /*------------------------------------------- media Quary----------------------- */
 @media only screen and (max-width: 992px){
@@ -262,6 +261,14 @@ body{
     text-align: center;
     padding: 15px 0px;
     font-size: 20px;
+  }
+  
+  .Section_4 h2{
+     padding: 0px 30px;
+     align-self: center;
+  }
+  .container.p-5{
+    padding: 20px !important;
   }
   .card{
     padding: 10px 10px;
@@ -313,6 +320,9 @@ body{
     padding: 15px 0px;
     font-size: 20px;
   }
+  .h2t{
+    padding: 30px 0px;
+  }
   .banner_section h1 {
     text-align: center;
     font-weight: 500;
@@ -360,13 +370,14 @@ body{
   }
   
   h2{
-    font-size: 30px !important;
+    font-size: 22px !important;
   }
   h4{
-    font-size: 18px !important  ;
+    
+    font-size: 15px !important  ;
   }
   h3,h5,h6 {
-    font-size: 25px !important;
+    font-size: 21px !important;
   }
   .secicon{
     margin-bottom: 15px;
