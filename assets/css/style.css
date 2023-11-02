@@ -9,6 +9,9 @@ img{
 body{
   font-family: 'Poppins', sans-serif;
 }
+body {
+  scroll-behavior: smooth;
+}
 
 .logo img{
   max-width: 40%;
@@ -131,9 +134,10 @@ img.banner_imag1{
 .buttons{
   margin-top: 40px;
 }
-.buttons a{
+.buttons button{
   text-decoration: none;
   background-color: #6fc058;
+  border: none;
   color: white;
   font-size: 20px;
   padding: 10px 30px;
