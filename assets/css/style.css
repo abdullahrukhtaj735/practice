@@ -207,6 +207,7 @@ img.banner_imag1{
 /*-------------------------------------------- section_4------------------------------------------------ */
 .Section_4{
   padding: 50px 0px;
+  background-color: #f5f5f5 !important;
 }
 .Section_4 h2{
   text-align: center;
@@ -266,7 +267,12 @@ img.banner_imag1{
 }
 /* -------------------------------------------section_6------------------------------------ */
 .section_5{
+  background-color: #6fc058;
   padding-bottom: 50px;
+  color: white;
+}
+.section_5 .text-muted{
+  color: white !important ;
 }
 .section_5 h2{
   text-align: center;
