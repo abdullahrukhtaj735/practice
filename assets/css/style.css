@@ -52,6 +52,7 @@ body{
 
 /* --------------------------------banner____section---------------------------------------------------- */
 .banner_section{
+  padding: 30px 0px;
   flex-direction: row;
   align-items: center;
   color: white;
@@ -60,8 +61,19 @@ body{
   background-position: center;
   background-size: cover;
   background-repeat:no-repeat ;
-  height: 90vh;
+  /* height: 90vh; */
+  align-items: center;
 
+}
+.banner_section .sec1{
+  display: flex;
+  align-items: center;
+}
+
+
+
+img.banner_imag1{
+  max-width: 100%;
 }
 .banner_section h1{
   margin-top: 60px;
@@ -252,7 +264,71 @@ body{
   background:#007bff;
   
 }
-/* section_5 */
+/* -------------------------------------------section_6------------------------------------ */
+.section_5{
+  padding-bottom: 50px;
+}
+.section_5 h2{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  padding: 40px 0px;
+ 
+}
+.section_6{
+  padding: 50px 0px;
+  background-color: #432d78;
+  color: white;
+}
+.section_6 h2{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  padding: 40px 0px;
+ 
+}
+.section_6 ul{
+  margin-top: 30px;
+}
+.section_6 ul li{
+  margin-top: 20px;
+  list-style: none;
+}
+.section_6 ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: none;
+  font-size: 18px;
+  
+}
+.section_6 ul li a:hover{
+  color: #6fc058;
+}
+.section_6 ul li a i{
+  font-size: 20px;
+  margin-right: 15px;
+  color: #6fc058;
+}
+.section_6 ul li a i:hover{
+  color: white;
+}
+form{
+  color: black;
+}
+button.btn.btn-primary{
+  color: white !important;
+  background-color: #6fc058;
+  padding: 10px 20px;
+  border: none;
+}
+button.btn.btn-primary:focus{
+  border: none;
+  background-color: #114e00;
+}
+button.btn.btn-primary:hover{
+  background-color: #2c940f;
+}
+
 
 /*------------------------------------------- media Quary----------------------- */
 @media only screen and (max-width: 992px){
@@ -272,6 +348,12 @@ body{
   }
   .card{
     padding: 10px 10px;
+  }
+  img.banner_imag1{
+    max-width: 80% !important;
+  }
+  img.banner_imag2{
+    max-width: 50% !important;
   }
   .banner_section h1 {
     text-align: center;
@@ -327,8 +409,11 @@ body{
     text-align: center;
     font-weight: 500;
     margin-top: 23px !important;
-    font-size: 23px !important;
+    font-size: 27px !important;
     line-height: 30px !important;
+  }
+  .banner_section .sec1{
+    padding: 30px 10px;
   }
   .right_icon{
     padding: 0%;
@@ -350,12 +435,14 @@ body{
     font-size: 10px;
   }
   .buttons a{
-    font-size: 12px;
-    padding: 10 20px;
+    font-size: 15px;
+    padding: 15 20px;
+    
   }
   .buttons{
     margin-top: 15px;
     text-align: center;
+    
   }
   .buttons a{
    margin: 0%; 
@@ -389,7 +476,7 @@ body{
 
 }
 @media only screen and (max-width: 767px) and (min-width: 400px){
-  .banner_imag img {
-    max-width: 31%;
-  }
+ .oval{
+  width: 244px;
+ }
 }

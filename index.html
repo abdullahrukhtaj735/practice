@@ -41,7 +41,7 @@
     <div class="container">
 
       <div class="row  d-flex">
-        <div class="col-md-6">
+        <div class="col-md-6 sec1">
           <div class="d-flex align-self-center banner_left">
             <h1>
               Discover Affordable Telus Home and Business Plans Starting at
@@ -239,7 +239,9 @@
         </div>
       </div>
     </div>
-    <!-- ------------------------------------------------------------section_5---------------------------------- -->
+  </div>
+  <!-- ------------------------------------------------------------section_5---------------------------------- -->
+  <div class="section_5">
     <div class="h2t">
       <h2>Testimonials </h2>
     </div>
@@ -330,90 +332,107 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <!-- ------------------------------------------------------------section_6---------------------------------- -->
+  </div>
+  <!-- ------------------------------------------------------------section_6---------------------------------- -->
 
 
-    <div class="section_6">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h2>Express Your Interest and Get Started</h2>
+  <div class="section_6">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2>Express Your Interest and Get Started</h2>
+        </div>
+        <div class="col-md-6">
+          <p>We're excited to learn more about your needs and help you find the perfect TELUS home or business plan.
+            Please complete the form below to express your interest, select your preferred plan type, and share any
+            questions or comments you have. By providing us with this information, you're taking the first step
+            towards a seamless and reliable connection. Our team will use your details to reach out and guide you
+            through our offerings, ensuring you get the best services tailored to your requirements</p>
+          <div>
+            <ul>
+              <li><a href="tel:+905-542-1999"><i class="fa-solid fa-phone"></i>+905-542-1999</a></li>
+              <li><a href="mailto:info@boltwireless.ca"><i class="fa-solid fa-envelope"></i>info@boltwireless.ca</a>
+              </li>
+            </ul>
           </div>
-          <div class="col-md-6">
-            <p>We're excited to learn more about your needs and help you find the perfect TELUS home or business plan.
-              Please complete the form below to express your interest, select your preferred plan type, and share any
-              questions or comments you have. By providing us with this information, you're taking the first step
-              towards a seamless and reliable connection. Our team will use your details to reach out and guide you
-              through our offerings, ensuring you get the best services tailored to your requirements</p>
-            <div>
-              <ul>
-                <li><a href="tel:+905-542-1999"><i class="fa-solid fa-phone"></i>+905-542-1999</a></li>
-                <li><a href="mailto:info@boltwireless.ca"><i class="fa-solid fa-envelope"></i>info@boltwireless.ca</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <form action="your_form_action_url_here" method="POST">
-              <div class="row mb-3">
-                <div class="col-6 mb-3">
-                  <div class="form-floating">
-                    <input type="text" class="form-control" id="fname" name="fname" placeholder="First Name">
-                    <label for="fname">First Name</label>
-                  </div>
+        </div>
+        <div class="col-md-6">
+          <form action="your_form_action_url_here" method="POST">
+            <div class="row mb-3">
+              <div class="col-6 mb-3">
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="fname" name="fname" placeholder="First Name">
+                  <label for="fname">First Name</label>
                 </div>
-                <div class="col-6">
-                  <div class="form-floating">
-                    <input type="text" class="form-control" id="lname" name="lname" placeholder="Last Name">
-                    <label for="lname">Last Name</label>
-                  </div>
+              </div>
+              <div class="col-6">
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="lname" name="lname" placeholder="Last Name">
+                  <label for="lname">Last Name</label>
                 </div>
-                <div class="col-6">
-                  <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Email Address">
-                    <label for="email">Email Address</label>
-                  </div>
+              </div>
+              <div class="col-6">
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Email Address">
+                  <label for="email">Email Address</label>
                 </div>
-                <div class="col-6">
-                  <div class="form-floating mb-3">
-                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="Contact Number">
-                    <label for="phone">Contact Number</label>
-                  </div>
+              </div>
+              <div class="col-6">
+                <div class="form-floating mb-3">
+                  <input type="tel" class="form-control" id="phone" name="phone" placeholder="Contact Number">
+                  <label for="phone">Contact Number</label>
                 </div>
-                <div class="col-6">
-                  <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="interest" name="interest" placeholder="Interested In">
-                    <label for="interest">Interested In</label>
-                  </div>
+              </div>
+              <div class="col-6">
+                <div class="form-floating mb-3">
+                  <select class="form-select" id="Interest_In" name="Interest_In" placeholder="Interest In">
+                    <option value="business_plan">Business Plan</option>
+                    <option value="Home_plan">Home Plan</option>
+                    <option value="Other">Other</option>
+                  </select>
+                  <label for="current-provider">Interest In</label>
                 </div>
-                <div class="col-6">
-                  <div class="form-floating mb-3">
-                    <select class="form-select" id="current-provider" name="current-provider"
-                      placeholder="Current Provider">
-                      <option value="Telus">Telus</option>
-                      <option value="Competitor">Competitor</option>
-                      <option value="Other">Other</option>
-                      <option value="None">None</option>
-                    </select>
-                    <label for="current-provider">Current Provider</label>
-                  </div>
+              </div>
+              <div class="col-6">
+                <div class="form-floating mb-3">
+                  <select class="form-select" id="current-provider" name="current-provider"
+                    placeholder="Current Provider">
+                    <option value="Telus">Telus</option>
+                    <option value="Competitor">Competitor</option>
+                    <option value="Other">Other</option>
+                    <option value="None">None</option>
+                  </select>
+                  <label for="current-provider">Current Provider</label>
                 </div>
-                
-                <div class="col-12">
-                  <div class="form-floating mb-3 ">
-                    <textarea class="form-control h-50 "  id="comments" name="comments" cols="30" rows="10"  placeholder="Questions/Comments"
-                      rows="4"></textarea>
-                    <label for="comments">Questions/Comments</label>
-                  </div>
+              </div>
+              <div class="col-12">
+                <div class="form-floating mb-3">
+                  <select class="form-select" id="How would you like to be contacted"
+                    name="How would you like to be contacted" placeholder="How would you like to be contacted">
+                    <option value="Email">Email</option>
+                    <option value="Phone Call">Phone</option>
+                    <option value="Text Message">Text Message</option>
+                    <option value="Other">Other</option>
+                  </select>
+                  <label for="current-provider">How would you like to be contacted</label>
                 </div>
               </div>
 
-              <button type="submit" class="btn btn-primary">Get Started</button>
-            </form>
-          </div>
+              <div class="col-12">
+                <div class="form-floating mb-3 ">
+                  <textarea class="form-control" id="comments" name="comments" cols="30" rows="10"
+                    placeholder="Questions/Comments" rows="4"></textarea>
+                  <label for="comments">Questions/Comments</label>
+                </div>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Get Started</button>
+          </form>
         </div>
       </div>
     </div>
+  </div>
 
 
 </body>
