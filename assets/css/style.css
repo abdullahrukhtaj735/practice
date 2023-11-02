@@ -8,10 +8,10 @@ img{
 }
 body{
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth !important;
+
 }
-body {
-  scroll-behavior: smooth;
-}
+
 
 .logo img{
   max-width: 40%;
