@@ -11,67 +11,34 @@ body{
   scroll-behavior: smooth !important;
 
 }
-
+.navbar1{
+  background-color: #6fc058;
+}
 .social-icons > a {
   margin: 5px;
   width: 45px;
   height: 45px;
   font-size: 20px;
   color: var(--white-color);
-  border-radius: 3px;
+  border-radius: 50%;
   overflow: hidden;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-}
-svg:not(:root).svg-inline--fa {
-  overflow: visible;
-}
+  color: #432d78;
+  /* background-color: #432d78; */
+  
 
-.svg-inline--fa.fa-w-10 {
-  width: 0.625em;
 }
-
-.social-icons svg {
-  display: block;
-  height: 100%;
-  line-height: 45px;
-  margin: 0 auto;
-  -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.svg-inline--fa {
-  display: inline-block;
-  font-size: inherit;
-  height: 1em;
-  overflow: visible;
-  vertical-align: -0.125em;
-}
-  .social-icons > a.facebook {
-  background-color: #3b5999 !important;
-}
-svg.svg-inline--fa.fa-twitter.fa-w-16{
-width: 30px !important;
-}
-.social-icons > a.twitter {
-
-  background-color: #55acee !important;
-}
-.social-icons > a.google-plus {
-  background-color: #dd4b39 !important;
-}
-svg.svg-inline--fa.fa-google-plus-g.fa-w-20{
-width: 30px;
-}
-
-.social-icons > a.facebook:hover {
-  background-color: #365899 !important; 
-  transform: scale(1.1)
+.social-icons > a i{
+  transform: translate(10px, 9px);
+  font-size: 25px;
 }
 
 
-.social-icons > a.twitter:hover {
-  background-color: #3daee9 !important; 
+
+.social-icons > a:hover {
+  background-color: #432d78;
+  color: white;
   transform: scale(1.1); 
 }
 
@@ -84,7 +51,8 @@ width: 30px;
 
 
 .logo img{
-  max-width: 40%;
+  padding-top: 15px;
+  max-width: 100%;
 }
 .right_icon{
   padding-top: 15px;
@@ -154,6 +122,11 @@ img.banner_imag1{
   line-height: 55px;
   font-weight: 600;
 }
+.banner_section h1 span{
+  color: #6fc058;
+  animation: scaleup 2s ease-in-out infinite;
+  -webkit-text-stroke: 1px #ffffff;
+}
 .banner_imag{
   flex-direction: column;
   justify-content: center;
@@ -163,7 +136,9 @@ img.banner_imag1{
   max-width:70%;
   animation: scaleup 2s ease-in-out infinite;
   
+  
  }
+
  @keyframes scaleup {
   0% {
       transform: scale(1);
@@ -331,83 +306,7 @@ img.banner_imag1{
   /* padding: 10px 0px; */
 
 }
-/*-------------------------------------------- section_4------------------------------------------------ */
-.Section_4{
-  padding: 50px 0px;
-  background-color: #f5f5f5 !important;
-}
-.Section_4 h2{
-  text-align: center;
-  font-size: 35px;
-  font-weight: 600;
-  padding: 40px 0px;
- 
- 
- 
-}
 
-.card {
-  text-align: center;
-  border:none;
-  padding: 10px 50px;
-  background-color: #6fc058;
-  color: white;
-}
-.list-group li{
-  color: white;
-  background-color: #6fc058;
-}
-.card .btn{
-  color: white;
-  border: 1px solid #432d78;
-}
-.card .btn:hover{
-  background-color: #432d78;
-}
-
-.card::after {
-  position: absolute;
-  z-index: -1;
-  opacity: 0;
-  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.card:hover {
-
-
-  transform: scale(1.02, 1.02);
-  -webkit-transform: scale(1.02, 1.02);
-  backface-visibility: hidden; 
-  will-change: transform;
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.75) !important;
-}
-
-.card:hover::after {
-  opacity: 1;
-}
-
-.card:hover .btn-outline-primary{
-  color:white;
-  background:#007bff;
-  
-}
-/* -------------------------------------------section_6------------------------------------ */
-.section_5{
-  background-color: #6fc058;
-  padding-bottom: 50px;
-  color: white;
-}
-.section_5 .text-muted{
-  color: white !important ;
-}
-.section_5 h2{
-  text-align: center;
-  font-size: 35px;
-  font-weight: 600;
-  padding: 40px 0px;
- 
-}
 .section_6{
   padding: 50px 0px;
   background-color: #432d78;
@@ -419,6 +318,9 @@ img.banner_imag1{
   font-weight: 600;
   padding: 40px 0px;
  
+}
+.section_6 p{
+  text-align: justify;
 }
 .section_6 ul{
   margin-top: 30px;
