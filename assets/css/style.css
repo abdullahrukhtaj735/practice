@@ -466,7 +466,10 @@ textarea#comments{
   margin: auto;
   padding: 15px 0px;
 }
-
+hr{
+  margin: 0%;
+  padding: 0%;
+}
 
 /*------------------------------------------- media Quary----------------------- */
 @media only screen and (max-width: 992px){
