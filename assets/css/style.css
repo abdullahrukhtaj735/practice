@@ -578,3 +578,9 @@ button.btn.btn-primary{
   width: 244px;
  }
 }
+
+@media only screen and (max-width: 576px) {
+  .social-icons>a i {
+    transform: translate(0px, 9px);
+  }
+}
